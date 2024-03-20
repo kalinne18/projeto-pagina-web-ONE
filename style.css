@@ -102,7 +102,7 @@ body {
     background-color: var(--cor-hover);
 }
 .imagem{
-    width: 50%;
+    width: 40%;
     height: 50%;
 }
 .rodape{
@@ -116,7 +116,7 @@ body {
 }
 @media (max-width: 1200px){
     .cabecalho{
-        padding: 10% 10% 0% 10%;;
+        padding: 10% 10% 0% 10%;
     }
     .menu{
         justify-content: center;
@@ -130,5 +130,8 @@ body {
     }
    .botoes_link{
     box-sizing:content-box;
+   }
+   .imagem{
+    width: 70%;
    }
 }
